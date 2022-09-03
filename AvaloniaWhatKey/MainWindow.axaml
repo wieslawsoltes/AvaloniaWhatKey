@@ -8,28 +8,28 @@
         WindowStartupLocation="CenterScreen"
         x:Class="AvaloniaWhatKey.MainWindow"
         Title="AvaloniaWhatKey">
-    <DockPanel>
-        <TextBlock Text="Press any key to see Key enum value." 
-                   HorizontalAlignment="Center" 
-                   VerticalAlignment="Center"
-                   FontSize="14"
-                   Margin="12"
-                   Opacity="0.6"
-                   DockPanel.Dock="Bottom" />
-        <Button Content="Copy"
-                Click="CopyButton_OnClick"
-                HorizontalAlignment="Center" 
-                VerticalAlignment="Center"
-                FontSize="14"
-                Margin="12"
-                Opacity="0.6"
-                IsVisible="{Binding !!#GestureText.Text.Length}"
-                DockPanel.Dock="Bottom" />
-        <TextBlock x:Name="GestureText" 
-                   Text="" 
-                   HorizontalAlignment="Center" 
-                   VerticalAlignment="Center"
-                   FontSize="48"
-                   Margin="12"/>
-    </DockPanel>
+  <DockPanel>
+    <TextBlock Text="Press any key to see Key enum value."
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontSize="14"
+               Margin="12"
+               Opacity="0.6"
+               DockPanel.Dock="Bottom" />
+    <Button Content="Copy"
+            Click="CopyButton_OnClick"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            FontSize="14"
+            Margin="12"
+            Opacity="0.6"
+            IsVisible="{Binding !!#GestureText.Text.Length}"
+            DockPanel.Dock="Bottom" />
+    <TextBlock x:Name="GestureText"
+               Text=""
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontSize="48"
+               Margin="12" />
+  </DockPanel>
 </Window>

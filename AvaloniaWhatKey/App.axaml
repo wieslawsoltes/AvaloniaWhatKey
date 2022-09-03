@@ -1,7 +1,8 @@
 <Application xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             x:Class="AvaloniaWhatKey.App">
-    <Application.Styles>
-        <FluentTheme Mode="Light"/>
-    </Application.Styles>
+             x:Class="AvaloniaWhatKey.App"
+             Name="AvaloniaWhatKey">
+  <Application.Styles>
+    <FluentTheme Mode="Light" />
+  </Application.Styles>
 </Application>
